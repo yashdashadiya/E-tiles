@@ -19,11 +19,13 @@
             <div class="your_project_one_wrapper_catalogue">
                 <div class="your_project_one_wrapper_catalogue_info">
                     <h2>Let's See Our Catalogue</h2>
-                    <p>Find out best catalogue for you.Find out best catalogue for you.</p>
+                    <p>Find out the best Catalogue, that suitable for your landscape</p>
                 </div>
-                <div class="your_project_one_wrapper_catalogue_button">
-                    <div>CATALOGUE</div>
-                </div>
+                <a href="catalogue.php" class="your_project_one_wrapper_catalogue_button">
+                    <div>
+                        <div>CATALOGUE</div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

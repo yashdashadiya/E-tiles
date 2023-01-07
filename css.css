@@ -366,10 +366,14 @@ a {
 }
 
 .icon {
-    padding-right: 50px;
-    color: white;
     cursor: pointer;
     font-size: 40px;
+    width: 40px;
+}
+.mobile_nav_icon{
+    padding-right: 50px;
+    color: white;
+
 }
 
 #mobile_nav_content_container {

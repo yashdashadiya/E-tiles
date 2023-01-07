@@ -1,33 +1,36 @@
 <ul class="about_us_info_flip">
     <li onmouseover="flip_icon(this)" onmouseout="flip_icon_back(this)">
         <div class="about_us_info_flip_icon ">
-            <i class="fa-brands fa-whatsapp"></i>
+            <img src="icons/checklist.png" class="icon">
         </div>
 
         <div class="about_us_info_flip_title">
-            <h3>Hardwood Floor Care Center</h3>
+            <h3>Working with standard Batch Mark.</h3>
+            <!-- <h3>Quality Guaranteed</h3> -->
+            <!-- <h3>Hardwood Floor Care Center</h3> -->
         </div>
     </li>
 
     <li onmouseover="flip_icon(this)" onmouseout="flip_icon_back(this)">
         <div class="about_us_info_flip_icon ">
-            <i class="fa-brands fa-whatsapp"></i>
-
+            <img src="icons/project-management.png" class="icon">
         </div>
 
         <div class="about_us_info_flip_title ">
-            <h3>High-Quality Floorings At Great Prices</h3>
+            <h3>Latest Technology with Market Forecasting.</h3>
+            <!-- <h3>Latest Technologies</h3> -->
+            <!-- <h3>High-Quality Floorings At Great Prices</h3> -->
         </div>
     </li>
 
     <li onmouseover="flip_icon(this)" onmouseout="flip_icon_back(this)">
         <div class="about_us_info_flip_icon">
-            <i class="fa-brands fa-whatsapp"></i>
-
+            <img src="icons/delivery-time.png" class="icon">
         </div>
 
         <div class="about_us_info_flip_title ">
-            <h3>We solve complex flooring issues</h3>
+            <h3>On-Time Delivery</h3>
+            <!-- <h3>We solve complex flooring issues</h3> -->
         </div>
     </li>
 </ul>

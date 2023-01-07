@@ -17,7 +17,7 @@
                     <div>
                         <h3>Phone</h3>
                         <p>Call : +91 9426448461</p>
-                        <p>Name : Umang Dashadiya</p>
+                        <!-- <p>Name : Umang Dashadiya</p> -->
                     </div>
                 </div>
             </div>
@@ -34,8 +34,8 @@
             </div>
         </div>
         <div class="contact_us_get_in_touch_send_message">
-            <h2 class="contact_us_get_in_touch_header">Send a message</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut blandit arcu in pretium.</p>
+            <h2 class="contact_us_get_in_touch_header">Send a Message</h2>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut blandit arcu in pretium.</p> -->
             <form class="contact_us_get_in_touch_form" method="POST" action="https://formsubmit.co/etilesexport@gmail.com">
                 <!-- <input type="email" name="email" placeholder="Email Address" required> -->
                 <input type="hidden" name="_subject" value="Some One send you message">

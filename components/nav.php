@@ -2,7 +2,7 @@
     <img src="photos\E_TILES_LOGO_WHITE.png" class="logo" alt="not">
     <div id="nav_button_container">
         <!-- close button of mobile nav  -->
-        <i class="fa-solid fa-xmark icon displaynone" id="nav_button_container_close_icon"  onclick="openNavButton()"></i>
+        <i class="fa-solid fa-xmark icon mobile_nav_icon displaynone" id="nav_button_container_close_icon"  onclick="openNavButton()"></i>
 
         <!-- navigatore -->
         <div class="nav_button_name" onclick="return navigatePageUrl(this,'index.php')">
@@ -37,11 +37,14 @@
     </div>
 
     <!-- button for open mobile nav bar -->
+    
+    <!-- for info drawer -->
     <div class="nav_icon_container openInfo">
-        <i class="fa-solid fa-bars icon openInfo" onclick="openInfo()"></i>
+        <i class="fa-solid fa-bars icon mobile_nav_icon openInfo" onclick="openInfo()"></i>
     </div>
+    <!-- for nav button  -->
     <div class="nav_icon_container openNavButton">
-        <i class="fa-solid fa-bars icon openNavButton" onclick="openNavButton()"></i>
+        <i class="fa-solid fa-bars icon mobile_nav_icon openNavButton" onclick="openNavButton()"></i>
     </div>
 
 

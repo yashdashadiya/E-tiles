@@ -8,8 +8,8 @@
                     </div>
                 </div>
                 <div class="contact_us_get_in_touch_send_message backgroundMap">
-                    <h2 class="contact_us_get_in_touch_header">Send a message</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut blandit arcu in pretium.</p>
+                    <h2 class="contact_us_get_in_touch_header">Send a Message</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut blandit arcu in pretium.</p> -->
                     <form class="contact_us_get_in_touch_form" method="POST" action="https://formsubmit.co/etilesexport@gmail.com">
                         <!-- <input type="email" name="email" placeholder="Email Address" required> -->
                         <input type="hidden" name="_subject" value="Some One send you message">

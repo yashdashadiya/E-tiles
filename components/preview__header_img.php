@@ -1,14 +1,22 @@
-<img src="photos/5.jpg" id="image" class="preview__header_img" alt="not">
-<script>
-        var imageSources = ["photos/1.jpg", "photos/2.jpg", "photos/3.png", "photos/4.jpg", "photos/5.jpg"];
+<div style="position:relative">
+    <div class="gradient">
+        <!-- <img src="photos/main-slider-v1-1.jpg"  draggable="false" id="image" class="preview__header_img" alt="not">
+    <div>
 
-        var index = 0;
-        setInterval(function() {
-            if (index === imageSources.length) {
-                index = 0;
-            }
-            document.getElementById("image").src = imageSources[index];
-            index++;
-        }, 5000);
-        
-    </script>
+        <h2>Welcome to E-tiles Export</h2>
+
+    </div> -->
+        <div class="slideshow-image" style="background-image: url('photos/main-slider-v1-1.jpg');z-index:-1"></div>
+        <div class="slideshow-image" style="background-image: url('photos/main-slider-v1-2.jpg');z-index:-2"></div>
+        <div class="slideshow-image" style="background-image: url('photos/main-slider-v1-3.jpg');z-index:-3"></div>
+        <div class="slideshow-image" style="background-image: url('photos/main-slider-v1-4.jpg');z-index:-4"></div>
+
+    </div>
+        <div class="slideshow-image-body">
+            <p>Thid is our Tag Line.</p>
+            <h2>Welcome to E-tiles Export</h2>
+            <div class="slideshow-image-body-button-contanier">
+                <a href="" class="slideshow-image-body-button">OUR SOLUTION</a>
+            </div>
+        </div>
+</div>

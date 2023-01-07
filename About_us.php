@@ -7,23 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="css.css">
-    <script src="javascript.js"></script>
+    <link rel = "icon" href = "photos\E TILES LOGO ICON.png">
+    <script src="javascript/javascript.js"></script>
     <script src="https://kit.fontawesome.com/ad57e5ca9d.js" crossorigin="anonymous"></script>
+    <script src="javascript/initialJs.js"></script>
+    <?php include 'components\pre_loading.php'; ?>
 </head>
 
-<body>
+<body onload="onload()">
+    <div class="se-pre-con"></div>
     <?php include 'components/nav.php'; ?>
-    <?php include 'components/about_us_header.php'; ?>
-    <div id="about_us_web_page_body">
-        <div id="about_us_body">
-            <div id="about_us_img_container">
-                <?php include 'components/about_us_photo.php' ?>
-            </div>
-            <div id="about_us_info_container">
-            <?php include 'components/about_us_info.php'; ?>
-            </div>
-        </div>
-    </div>
+    <?php include 'components/page_header.php'; ?>
+    <?php include 'components/about_us_container.php';?>
+
 
 
 

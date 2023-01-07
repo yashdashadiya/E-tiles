@@ -1,56 +1,49 @@
 <div id="nav">
-    <img src="photos/E TILES LOGO  DONE.png" class="logo" alt="not">
-    <div id="nav_button_container" >
-        
+    <img src="photos\E_TILES_LOGO_WHITE.png" class="logo" alt="not">
+    <div id="nav_button_container">
+        <!-- close button of mobile nav  -->
+        <i class="fa-solid fa-xmark icon displaynone" id="nav_button_container_close_icon"  onclick="openNavButton()"></i>
+
+        <!-- navigatore -->
         <div class="nav_button_name" onclick="return navigatePageUrl(this,'index.php')">
-        <a href="index.php" style="text-decoration:none;color: inherit;">Home</a>
+            <a href="index.php"   id="index" >Home</a>
         </div>
         
-        <div class="nav_button_name" onclick="return navigatePageUrl(this,'About_us.php')" >
-            <a href="About_us.php" style="text-decoration:none;color: inherit;">About Us</a>
+        <div class="nav_button_name" onclick="return navigatePageUrl(this,'about_us.php')">
+            <a href="about_us.php" id="about_us" >About Us</a>
         </div>
         
-        <div class="nav_button_name">product</div>
-        <div class="nav_button_name">Contact</div>
-        <div class="nav_button_name">catalogue</div>
-        <!-- <div class="nav_button_name">
-            <span>Manu</span>
-            <i></i>
-        </div> -->
-        <!-- <div class="nav_button_name">
-            experd guidance
-        </div> -->
-    </div>
-    <div id="nav_icon_container">
-        <i class="fa-solid fa-bars icon" onclick="openInfo()"></i>
-
-        <!-- mobile content contect info -->
-        <div id="mobile_nav_content_container">
-            <div id="mobile_nav_content">
-
-                <img src="photos/E TILES LOGO  DONE.png" id="mobile_nav_content_logo" alt="not">
-                <!-- <i class="material-icons w3-xxxsmall icon" id="mobile_nav_content_close_icon" onclick="openInfo()">close</i> -->
-                <i class="fa-solid fa-xmark icon" id="mobile_nav_content_close_icon" onclick="openInfo()"></i>
-                <h3 class="mobile_nav_content_heading">About Us</h3>
-
-                <p class="mobile_nav_content_text">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                    1500s,</p>
-
-                <h3 class="mobile_nav_content_heading">Contact Info</h3>
-
-                <p class="mobile_nav_content_text" style="color: #f37e21;">Address</p>
-                <!-- <p class="mobile_nav_content_text">48 10h Street, Office 478 Road 5 Morbi, IND 363642</p> -->
-                <p class="mobile_nav_content_text">Trajpar Chokdi, Bhagvati Chamber-3,First Floor ,Shop No - 28, Amrut Nagar, Morbi, Gujarat 363641</p>
-
-                <p class="mobile_nav_content_text" style="color: #f37e21;">Phone</p>
-                <p class="mobile_nav_content_text">+91 9426448461</p>
-
-                <p class="mobile_nav_content_text" style="color: #f37e21;">Email</p>
-                <p class="mobile_nav_content_text">etilesexports@gmail.com</p>
-
+        <div class="nav_button_name dropdown">
+            <div class="dropbtn">
+                <span onclick="openNavButton()">Export</span>
+                 <i class="fa fa-angle-right rightArrowIcon" onclick="expandDropdown(this)" aria-hidden="true"></i>
+            </div>
+            <div class="dropdown-content">
+                <a href="tiles_calculator.php" onclick="return navigatePageUrl(this,'tiles_calculator.php')">Tiles Calculator</a>
+                <a href="packing_list.php" onclick="return navigatePageUrl(this,'packing_list.php')">Packing List</a>
+                <a href="service.php" onclick="return navigatePageUrl(this,'service.php')">Service</a>
             </div>
         </div>
-        <!-- <i id="nav_icon" style="font-size:30px" class="fa">&#xf0c9;</i> -->
+
+        <div class="nav_button_name" onclick="return navigatePageUrl(this,'contact_us.php')">
+            <a href="contact_us.php"  id="contact_us" >Contact</a>
+        </div>
+
+        <div class="nav_button_name" onclick="return navigatePageUrl(this,'catalogue.php')">
+            <a href="catalogue.php"  id="contact_us" >Catalogue</a>
+            
+        </div>
+
     </div>
+
+    <!-- button for open mobile nav bar -->
+    <div class="nav_icon_container openInfo">
+        <i class="fa-solid fa-bars icon openInfo" onclick="openInfo()"></i>
+    </div>
+    <div class="nav_icon_container openNavButton">
+        <i class="fa-solid fa-bars icon openNavButton" onclick="openNavButton()"></i>
+    </div>
+
+
+    <?php include 'components/mobile_nav_content_container.php';?>
 </div>

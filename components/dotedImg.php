@@ -3,9 +3,9 @@
 </div>
 
 <script>
-        var img=document.getElementById("dotedimgid");
-        var index =100;
-        var increase=true;
+        let img=document.getElementById("dotedimgid");
+        let index =100;
+        let increase=true;
         
         setInterval(function(){
             if(index>99.5){

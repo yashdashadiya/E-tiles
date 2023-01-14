@@ -1,7 +1,7 @@
 <div class="catalogue_card">
     <div class="catalogue_card_body">
         <div class="catalogue_card_logo">
-            <img src="photos\E_TILES_LOGO_WHITE.png" alt="">
+            <img src="photos/E_TILES_LOGO_WHITE.png" alt="">
             <div>E-TILES</div>
         </div>
         

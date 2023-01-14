@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="css.css">
-    <link rel = "icon" href = "photos\E TILES LOGO ICON.png">
+    <link rel = "icon" href = "photos/E TILES LOGO ICON.png">
     <script src="javascript/javascript.js"></script>
     <script src="https://kit.fontawesome.com/ad57e5ca9d.js" crossorigin="anonymous"></script>
     <script src="javascript/initialJs.js"></script>
-    <?php include 'components\pre_loading.php'; ?>
+    <?php include 'components/pre_loading.php'; ?>
 </head>
 
 <body onload="onload()">

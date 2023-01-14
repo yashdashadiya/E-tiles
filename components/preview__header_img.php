@@ -13,7 +13,7 @@
 
     </div>
         <div class="slideshow-image-body">
-            <p>Thid is our Tag Line.</p>
+            <p>This is our Tag Line.</p>
             <h2>Welcome to E-tiles Export</h2>
             <div class="slideshow-image-body-button-contanier">
                 <a href="" class="slideshow-image-body-button">OUR SOLUTION</a>

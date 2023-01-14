@@ -1,7 +1,8 @@
 <style>
     .slideshow-image,.slideshow-image-body{animation-play-state: paused }
     body {
-        animation-play-state: paused
+        animation-play-state: paused;
+        overflow-y: hidden;
     }
 
     .no-js #loader {
@@ -32,6 +33,7 @@
 
 <script>
     $(window).load(function() {
+        document.body.style.overflowY="inherit";
         $(".se-pre-con").fadeOut("fast");
         bannerImg=document.getElementsByClassName('slideshow-image')
         bannerText=document.getElementsByClassName('slideshow-image-body')

@@ -66,7 +66,7 @@
             <h2 class="section_heading">OUR DOWNLOAD SECTION</h2>
             <?php
             foreach ($catalogues as $catalogue) {
-                include 'components\catalogue_type_container.php';
+                include 'components/catalogue_type_container.php';
             }
             ?>
         </div>

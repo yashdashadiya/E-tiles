@@ -18,7 +18,7 @@
         </a>
         <a href="#" target="_blank">
             <div class="footer_contact_us_GetInTouch_icon">
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
             </div>
         </a>
     </div>

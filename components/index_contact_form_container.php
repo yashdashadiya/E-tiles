@@ -1,7 +1,7 @@
 <section class="contact_us_get_in_touch" click="increase_count_of_ordered()">
             <div class="contact_us_get_in_touch_container">
                 <div  class="contact_us_get_in_touch_contact index_contact_img_container">
-                    <img src="photos\contact_us_form_img.jpg" alt="">
+                    <img src="photos/contact_us_form_img.jpg" alt="">
                     <div class="index_contact_img_message">
                             <h1 id="receivedOrder">0</h1>
                             <p>received order</p>

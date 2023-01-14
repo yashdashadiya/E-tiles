@@ -1,5 +1,5 @@
 <div id="nav">
-    <img src="photos\E_TILES_LOGO_WHITE.png" class="logo" alt="not">
+    <img src="photos/E_TILES_LOGO_WHITE.png" class="logo" alt="not">
     <div id="nav_button_container">
         <!-- close button of mobile nav  -->
         <i class="fa-solid fa-xmark icon mobile_nav_icon displaynone" id="nav_button_container_close_icon"  onclick="openNavButton()"></i>

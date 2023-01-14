@@ -19,19 +19,21 @@
     limestoneflooring,shadesofgrey,greyflooring,stoneinstallation,stoneinstallations"
      />
     <title>E-Tiles</title>
-    <link rel="icon" href="photos\E TILES LOGO ICON.png">
+    <link rel="icon" href="photos/E TILES LOGO ICON.png">
     <script src="https://kit.fontawesome.com/ad57e5ca9d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="javascript/javascript.js"></script>
     <script src="javascript/initialJs.js"></script>
+    <script src="progress/nanobar.min.js"></script>
     <link rel="stylesheet" href="css.css">
-    <?php include 'components\pre_loading.php'; ?>
+    <?php include 'components/pre_loading.php'; ?>
 </head>
 
 <body onload="onload()">
     <div class="se-pre-con"></div>
     <!-- <img src="Preloader_3.gif" loading="eager"> -->
     <div id="preview__header">
+        <?php include 'progress/progress_bar.php'; ?>
         <?php include 'components/nav.php'; ?>
         <?php include 'components/preview__header_img.php'; ?>
         <?php include 'components/your_project_one_wrapper.php'; ?>

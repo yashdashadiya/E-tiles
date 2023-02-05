@@ -103,12 +103,8 @@ function navigatePageUrl(Element, rqPageName) {
     }
 }
 function onload() {
-    let colorStyle = "color:" + getComputedStyle(document.documentElement).getPropertyValue('--etiles-primary-color');
     let currPageName = document.location.href.split('/')[document.location.href.split('/').length - 1].split('.')[0];
-    console.log(currPageName);
-    // console.log(document.getElementById());
-    console.log(colorStyle);
-    document.getElementById(currPageName).style = colorStyle;
+    document.getElementById(currPageName).classList.add("selcetedButton")
 }
 
 function calculateCalculatorForm() {

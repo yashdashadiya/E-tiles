@@ -15,7 +15,7 @@
                 <!-- <p>48 10h Street, Office 478 Road 5<br>Morbi, IND 363642</p> -->
                 <p>Trajpar Chokdi, Bhagvati Chamber - 3
                     First Floor ,Shop No - 28, Amrut Nagar, Morbi, Gujarat 363641</p>
-                <p>etilesexport@gmail.com</p>
+                <p class="section_heading_title">etilesexport@gmail.com</p>
             </div>
             <div class="footer_contact_us_GetInTouch_container" id="footer_contact_us_GetInTouch_container_fullScreen">
                 <?php include 'components/footer_component/footer_Subscribe_bar_get_in_touch.php'; ?>

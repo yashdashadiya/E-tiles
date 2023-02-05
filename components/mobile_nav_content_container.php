@@ -7,9 +7,9 @@
         <i class="fa-solid fa-xmark icon" id="mobile_nav_content_close_icon" onclick="openInfo()"></i>
         <h3 class="mobile_nav_content_heading">About Us</h3>
 
-        <p class="mobile_nav_content_text">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-            1500s,
+        <p class="mobile_nav_content_text justify_text">
+            <!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, -->
+                Welcome to Etiles-export, we are Offers you new Advantage Designs, Patterns, Colours, Quality. Get together to produce a synergy of most functionally beautiful tiles. Etiles-export is your ideal destination for an extensive range of products.
         </p>
 
         <h3 class="mobile_nav_content_heading">Contact Info</h3>

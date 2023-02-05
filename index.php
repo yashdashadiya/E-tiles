@@ -30,8 +30,10 @@
 </head>
 
 <body onload="onload()">
-    <div class="se-pre-con"></div>
-    <!-- <img src="Preloader_3.gif" loading="eager"> -->
+    <div class="se-pre-con">
+    <!-- <div id="progstat"></div> -->
+    <!-- <div id="progress"></div> -->
+    </div>
     <div id="preview__header">
         <?php include 'progress/progress_bar.php'; ?>
         <?php include 'components/nav.php'; ?>

@@ -5,12 +5,12 @@
         <i class="fa-solid fa-xmark icon mobile_nav_icon displaynone" id="nav_button_container_close_icon"  onclick="openNavButton()"></i>
 
         <!-- navigatore -->
-        <div class="nav_button_name" onclick="return navigatePageUrl(this,'index.php')">
-            <a href="index.php"   id="index" >Home</a>
+        <div class="nav_button_name" id="index" onclick="return navigatePageUrl(this,'index.php')">
+            <a href="index.php" >Home</a>
         </div>
         
-        <div class="nav_button_name" onclick="return navigatePageUrl(this,'about_us.php')">
-            <a href="about_us.php" id="about_us" >About Us</a>
+        <div class="nav_button_name" id="about_us" onclick="return navigatePageUrl(this,'about_us.php')">
+            <a href="about_us.php" >About Us</a>
         </div>
         
         <div class="nav_button_name dropdown">
@@ -25,14 +25,14 @@
             </div>
         </div>
 
-        <div class="nav_button_name" onclick="return navigatePageUrl(this,'contact_us.php')">
-            <a href="contact_us.php"  id="contact_us" >Contact</a>
-        </div>
-
-        <div class="nav_button_name" onclick="return navigatePageUrl(this,'catalogue.php')">
-            <a href="catalogue.php"  id="contact_us" >Catalogue</a>
+        <div class="nav_button_name" id="catalogue" onclick="return navigatePageUrl(this,'catalogue.php')">
+            <a href="catalogue.php" >Catalogue</a>
             
         </div>
+        <div class="nav_button_name" id="contact_us" onclick="return navigatePageUrl(this,'contact_us.php')">
+            <a href="contact_us.php" >Contact</a>
+        </div>
+
 
     </div>
 

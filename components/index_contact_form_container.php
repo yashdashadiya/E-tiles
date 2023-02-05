@@ -17,9 +17,9 @@
                         <input type="hidden" name="_next" value="http://etilesexport.com">
                         <input type="text" name="First Name" placeholder="First Name">
                         <input type="text" name="Last Name" placeholder="Last Name">
-                        <input type="email" name="Email" placeholder="Email">
-                        <input type="number" name="Phone-number" placeholder="Number">
-                        <textarea id="" cols="30" rows="10" name="Message" placeholder="Your Message Here"></textarea>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <input type="number" name="Phone-number" placeholder="Number" required>
+                        <textarea id="" cols="30" rows="10" name="Message" placeholder="Your Message Here" required></textarea>
                         <br>
                         <button>Send Message</button>
                     </form>
